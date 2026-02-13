@@ -1,0 +1,25 @@
+/* Tailwind CSS directives */
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Custom base styles */
+@layer base {
+  html {
+    scroll-behavior: smooth;
+  }
+  
+  body {
+    @apply bg-white text-gray-900;
+  }
+}
+
+/* Custom component styles */
+@layer components {
+  /* Add reusable component styles here if needed */
+}
+
+/* Custom utility styles */
+@layer utilities {
+  /* Add custom utilities here if needed */
+}
